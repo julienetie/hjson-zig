@@ -1,0 +1,14 @@
+.{
+    .name = .hjson,
+    .version = "0.1.0",
+    // Run `zig build` once: Zig reports the correct fingerprint for this
+    // package name. Paste that value here (this placeholder is invalid).
+    .fingerprint = 0x252331c8bfcbc311,
+    .minimum_zig_version = "0.17.0",
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        "PORTING_NOTES.md",
+    },
+}
